@@ -1,0 +1,19 @@
+title: "Assortito Music"
+description: "クラリネットアンサンブルを中心とした、オリジナル作品の楽譜を公開するサイトです。"
+url: "https://YOUR_USERNAME.github.io"
+baseurl: "/assortito_music_site"
+
+lang: ja
+# theme: jekyll-theme-midnight
+theme: jekyll-theme-minimal
+
+markdown: kramdown
+
+collections:
+  works:
+    output: true
+    permalink: /works/:name/
+
+exclude:
+  - private
+  - README.md

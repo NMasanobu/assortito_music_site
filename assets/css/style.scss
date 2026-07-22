@@ -1,0 +1,23 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* View on GitHub */
+header p.view {
+  display: none;
+}
+
+// This project is maintained by
+footer p:first-of-type {
+  display: none;
+}
+
+#custom-footer {
+  position: static;
+  width: 100%;
+}
+
+#custom-footer p:first-of-type {
+  display: block;
+}
