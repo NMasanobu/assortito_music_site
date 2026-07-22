@@ -17,3 +17,7 @@ collections:
 exclude:
   - private
   - README.md
+  - vendor
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
